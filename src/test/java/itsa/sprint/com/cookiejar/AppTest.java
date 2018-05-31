@@ -1,4 +1,4 @@
-package itsa.sprint.com.CookieMonster;
+package itsa.sprint.com.cookiejar;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
