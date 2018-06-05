@@ -6,7 +6,7 @@
 	<groupId>itsa.sprint.com</groupId>
 	<artifactId>cookiejar</artifactId>
 	<version>1.0-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>cookiejar</name>
 	<url>http://maven.apache.org</url>
@@ -25,7 +25,7 @@
 					<source>1.8</source>
 					<target>1.8</target>
 					<fork>true</fork>
-					<executable>C:\Program Files\Java\jdk1.8.0_161\bin\javac</executable>
+					<!--<executable>C:\Program Files\Java\jdk1.8.0_161\bin\javac</executable>-->
 				</configuration>
 			</plugin>
 			<plugin>

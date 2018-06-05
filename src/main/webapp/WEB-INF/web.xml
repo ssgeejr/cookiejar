@@ -5,13 +5,13 @@
 <web-app>
   <display-name>Maven Web-App (Service) Prototype</display-name>
   <servlet>
-  	<servlet-name>CookieJarService</servlet-name>
+  	<servlet-name>CookieJar</servlet-name>
   	<display-name>CookieJarService</display-name>
   	<description>A mock-service - this only simulates a real j2EE service. No features actually implemented</description>
   	<servlet-class>itsa.sprint.com.cookiejar.CookieJar</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>cjservice</servlet-name>
+  	<servlet-name>CookieJar</servlet-name>
   	<url-pattern>/cjservice</url-pattern>
   </servlet-mapping>
 </web-app>
