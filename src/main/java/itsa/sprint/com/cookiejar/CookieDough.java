@@ -8,10 +8,12 @@ public class CookieDough {
 
 	public CookieDough() throws Exception{
 		isTest = false;
+		initialize();
 	}
 
 	public CookieDough(boolean isTest) throws Exception{
 		this.isTest = isTest;
+		initialize();
 	}
 
 	private void initialize() throws Exception{
@@ -23,8 +25,7 @@ public class CookieDough {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
 
 	}
 
