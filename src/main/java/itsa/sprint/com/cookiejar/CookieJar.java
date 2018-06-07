@@ -45,6 +45,12 @@ public class CookieJar extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.getWriter().write("<img src=\"details.png\" alt=\"Details regarding the upcoming session\"/>\n");
+		response.getWriter().write("<img src=\"laptop.png\" alt=\"Setup Your Laptop for the Brown Bag Session\"/>\n");
+		response.getWriter().write("<img src=\"patrons.png\" alt=\"Those signed up\"/>\n");
+		response.getWriter().write("<img src=\"contact.png\" alt=\"Questions, Issues, Bugs & Support\"/>\n");
+
+		
 	}
 
 	/**
