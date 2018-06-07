@@ -59,7 +59,7 @@ public class CookieJar extends HttpServlet {
 		menu.append("<img src=\"contact.png\" alt=\"Questions, Issues, Bugs & Support\"/>\n");
 
 		response.getWriter().write(menu.toString());
-
+		response.getWriter().flush();
 
 	}
 

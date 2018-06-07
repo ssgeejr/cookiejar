@@ -41,8 +41,8 @@
       <file leaf-file-name="CookieJar.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/itsa/sprint/com/cookiejar/CookieJar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.70738256" vertical-offset="408" max-vertical-offset="1564">
-              <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.73020136" vertical-offset="408" max-vertical-offset="1564">
+              <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -497,12 +497,12 @@
       <created>1528362567042</created>
       <option name="number" value="Default" />
       <updated>1528362567042</updated>
-      <workItem from="1528362570903" duration="3574000" />
+      <workItem from="1528362570903" duration="3935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3574000" />
+    <option name="totallyTimeSpent" value="3935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="26" width="1616" height="882" extended-state="6" />
@@ -585,8 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/itsa/sprint/com/cookiejar/CookieJar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.70738256" vertical-offset="408" max-vertical-offset="1564">
-          <caret line="60" column="52" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.73020136" vertical-offset="408" max-vertical-offset="1564">
+          <caret line="61" column="37" selection-start-line="61" selection-start-column="37" selection-end-line="61" selection-end-column="37" />
           <folding />
         </state>
       </provider>
