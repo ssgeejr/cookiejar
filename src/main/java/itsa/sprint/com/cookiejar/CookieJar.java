@@ -22,6 +22,8 @@ public class CookieJar extends HttpServlet {
 	 */
 	public void init(ServletConfig config) throws ServletException {
 		// TODO Auto-generated method stub
+		System.out.println("REQUEST [init]");
+		
 	}
 
 	/**
@@ -37,6 +39,7 @@ public class CookieJar extends HttpServlet {
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("REQUEST [service]");
 	}
 
 	/**
@@ -44,16 +47,14 @@ public class CookieJar extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("REQUEST [doGet]");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		response.getWriter().write("<img src=\"details.png\" alt=\"Details regarding the upcoming session\"/>\n");
 		response.getWriter().write("<img src=\"laptop.png\" alt=\"Setup Your Laptop for the Brown Bag Session\"/>\n");
 		response.getWriter().write("<img src=\"patrons.png\" alt=\"Those signed up\"/>\n");
 		response.getWriter().write("<img src=\"contact.png\" alt=\"Questions, Issues, Bugs & Support\"/>\n");
 
-<<<<<<< HEAD
-		
-=======
->>>>>>> b7060a60b7963ee006b239c2cd325be5244b8e0c
+
 	}
 
 	/**
@@ -61,6 +62,7 @@ public class CookieJar extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("REQUEST [doPost]");
 		doGet(request, response);
 	}
 
@@ -69,6 +71,7 @@ public class CookieJar extends HttpServlet {
 	 */
 	protected void doPut(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("REQUEST [doPut]");
 	}
 
 	/**
@@ -76,6 +79,7 @@ public class CookieJar extends HttpServlet {
 	 */
 	protected void doDelete(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("REQUEST [doDelete]");
 	}
 
 }
