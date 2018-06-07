@@ -40,14 +40,6 @@ public class CookieJar extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		System.out.println("REQUEST [service]");
-	}
-
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		System.out.println("REQUEST [doGet]");
 		StringBuffer menu = new StringBuffer();
 		System.out.println("<img src=\"details.png\" alt=\"Details regarding the upcoming session\"/>\n");
 		menu.append("<img src=\"details.png\" alt=\"Details regarding the upcoming session\"/>\n");
@@ -60,6 +52,14 @@ public class CookieJar extends HttpServlet {
 
 		response.getWriter().write(menu.toString());
 		response.getWriter().flush();
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		System.out.println("REQUEST [doGet]");
 
 	}
 
