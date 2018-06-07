@@ -50,7 +50,10 @@ public class CookieJar extends HttpServlet {
 		response.getWriter().write("<img src=\"patrons.png\" alt=\"Those signed up\"/>\n");
 		response.getWriter().write("<img src=\"contact.png\" alt=\"Questions, Issues, Bugs & Support\"/>\n");
 
+<<<<<<< HEAD
 		
+=======
+>>>>>>> b7060a60b7963ee006b239c2cd325be5244b8e0c
 	}
 
 	/**
