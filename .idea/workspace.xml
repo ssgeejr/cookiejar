@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de2338fd-c02d-4d52-8e76-fbb63596c258" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/soapui/Cookies-soapui-project.xml" afterPath="$PROJECT_DIR$/soapui/Cookies-soapui-project.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="de2338fd-c02d-4d52-8e76-fbb63596c258" name="Default" comment="" />
     <ignored path="cookiejar.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
