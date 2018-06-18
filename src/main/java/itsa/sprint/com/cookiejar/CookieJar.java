@@ -37,22 +37,22 @@ public class CookieJar extends HttpServlet {
 	/**
 	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		System.out.println("REQUEST [service]");
-		StringBuffer menu = new StringBuffer();
-		System.out.println("<img src=\"details.png\" alt=\"Details regarding the upcoming session\"/>\n");
-		menu.append("<img src=\"details.png\" alt=\"Details regarding the upcoming session\"/>\n");
-		System.out.println("<img src=\"laptop.png\" alt=\"Setup Your Laptop for the Brown Bag Session\"/>\n");
-		menu.append("<img src=\"laptop.png\" alt=\"Setup Your Laptop for the Brown Bag Session\"/>\n");
-		System.out.println("<img src=\"patrons.png\" alt=\"Those signed up\"/>\n");
-		menu.append("<img src=\"patrons.png\" alt=\"Those signed up\"/>\n");
-		System.out.println("<img src=\"contact.png\" alt=\"Questions, Issues, Bugs & Support\"/>\n");
-		menu.append("<img src=\"contact.png\" alt=\"Questions, Issues, Bugs & Support\"/>\n");
-
-		response.getWriter().write(menu.toString());
-		response.getWriter().flush();
-	}
+//	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//		// TODO Auto-generated method stub
+//		System.out.println("REQUEST [service]");
+//		StringBuffer menu = new StringBuffer();
+//		System.out.println("<img src=\"details.png\" alt=\"Details regarding the upcoming session\"/>\n");
+//		menu.append("<img src=\"details.png\" alt=\"Details regarding the upcoming session\"/>\n");
+//		System.out.println("<img src=\"laptop.png\" alt=\"Setup Your Laptop for the Brown Bag Session\"/>\n");
+//		menu.append("<img src=\"laptop.png\" alt=\"Setup Your Laptop for the Brown Bag Session\"/>\n");
+//		System.out.println("<img src=\"patrons.png\" alt=\"Those signed up\"/>\n");
+//		menu.append("<img src=\"patrons.png\" alt=\"Those signed up\"/>\n");
+//		System.out.println("<img src=\"contact.png\" alt=\"Questions, Issues, Bugs & Support\"/>\n");
+//		menu.append("<img src=\"contact.png\" alt=\"Questions, Issues, Bugs & Support\"/>\n");
+//
+//		response.getWriter().write(menu.toString());
+//		response.getWriter().flush();
+//	}
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
@@ -60,6 +60,18 @@ public class CookieJar extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		System.out.println("REQUEST [doGet]");
+		
+		StringBuffer menu = new StringBuffer();
+			System.out.println("<img src=\"details.png\" alt=\"Details regarding the upcoming session\"/>\n");
+		menu.append("<img src=\"details.png\" alt=\"Details regarding the upcoming session\"/>\n");
+			System.out.println("<img src=\"laptop.png\" alt=\"Setup Your Laptop for the Brown Bag Session\"/>\n");
+		menu.append("<img src=\"laptop.png\" alt=\"Setup Your Laptop for the Brown Bag Session\"/>\n");
+			System.out.println("<img src=\"patrons.png\" alt=\"Those signed up\"/>\n");
+		menu.append("<img src=\"patrons.png\" alt=\"Those signed up\"/>\n");
+			System.out.println("<img src=\"contact.png\" alt=\"Questions, Issues, Bugs & Support\"/>\n");
+		menu.append("<img src=\"contact.png\" alt=\"Questions, Issues, Bugs & Support\"/>\n");
+		response.getWriter().write(menu.toString());
+		response.getWriter().flush();
 
 	}
 
@@ -69,7 +81,7 @@ public class CookieJar extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		System.out.println("REQUEST [doPost]");
-		doGet(request, response);
+		
 	}
 
 	/**
